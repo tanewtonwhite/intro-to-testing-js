@@ -31,8 +31,14 @@ describe ('sayHello', function () {
     it('should return "Hello, Pat!"', function () {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
-
-
 });
+    describe('isFive', function() {
+        it('should be a defined function', function () {
+            expect(typeof isFive).toBe('function');
+        });
+    });
+
+
+
 
 
